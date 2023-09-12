@@ -56,7 +56,7 @@ Text = "TTACGTGGAGGTCTAACCGCATCGTCGGGCCGAATCGGCCATTGCTTGGACTCCGGATGGAGCCGGCACGGT
 print(ReverseComplement(Text))
 
 # SOLUTION
-# def ReverseComplement(Text)
+# def ReverseComplement(Text):
 #     Text = Text.replace('A', 't').replace('T', 'a').replace('C', 'g').replace('G', 'c').upper()[::-1]
 #     return Text
 
