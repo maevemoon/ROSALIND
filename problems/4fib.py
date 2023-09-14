@@ -4,7 +4,7 @@ def Fibonacci(n, k):
     small = 1
     big =  1
     # update ages/amounts for every month
-    for months in range(2, n):
+    for months in range(1, n-1):
         current = big + small*k
         small = big
         big = current
