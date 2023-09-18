@@ -21,8 +21,5 @@ Text = "TTAAATTGTGTGGCTCCATGTGACCCTCTGTCGTAGTGATGGGGGCAGTCTCCAATATAACCATGAGGCCTA
 print(NucelotideCount(Text))
 
 # SOLUTION
-
 def NucleotideCount(Text):
     return Text.count("A"), Text.count("C"), Text.count("G"), Text.count("T")
-
-
