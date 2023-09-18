@@ -18,7 +18,7 @@ for record in SeqIO.parse(handle, "fasta"):
     if percent > highest:
         highest = percent
         ID = record.id
+
 print(ID)
 print(highest)
 handle.close()
-
