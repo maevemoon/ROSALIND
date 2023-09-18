@@ -5,7 +5,7 @@ from Bio import SeqIO
 
 highest = 0
 # convert file location to a raw string
-handle = open(r"example.fasta")
+handle = open(r"gc.fasta")
 for record in SeqIO.parse(handle, "fasta"):
     count = 0
     total = 0
